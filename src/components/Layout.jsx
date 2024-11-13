@@ -29,8 +29,8 @@ const Layout = () => {
                 <Link to="/shoppingcart" className={`text-white hover:text-secondary ${isActive("/shoppingcart")}`}>
                   Cart
                 </Link>
-                <Link to="/signup" className={`text-white hover:text-secondary ${isActive("/signup")}`}>
-                  Sign Up
+                <Link to="/signin" className={`text-white hover:text-secondary ${isActive("/signin")}`}>
+                  Sign In
                 </Link>
               </div>
             </div>

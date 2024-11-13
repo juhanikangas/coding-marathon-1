@@ -8,6 +8,7 @@ import ContactListManager from "./components/ContactListManager/ContactListManag
 import RecipeManager from "./components/RecipeManager/RecipeManager"
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart"
 import SignupPage from "./components/SignupPage/SignupPage"
+import SignInPage from "./components/SignInPage/SignInPage"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="recipes" element={<RecipeManager />} />
           <Route path="shoppingcart" element={<ShoppingCart />} />
           <Route path="signup" element={<SignupPage />} />
+          <Route path="signin" element={<SignInPage />} />
           <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
