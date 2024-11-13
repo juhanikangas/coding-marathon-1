@@ -1,0 +1,49 @@
+nav {
+  background-color: #1E3A8A; /* Blue background */
+  color: #fff;
+  padding: 1rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #93C5FD; /* Light blue hover color */
+}
+
+.active {
+  font-weight: bold;
+}
+
+
+.page-content {
+  padding: 2rem;
+}
+
+.page-content h1 {
+  font-size: 2rem;
+  color: #1E3A8A; /* Blue color */
+}
+
+.page-content p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.page-content div {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #f0f4f8;
+}
