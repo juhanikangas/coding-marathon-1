@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Home() {
   return (
     <div className="text-center">
-      <h1 className="text-4xl font-bold text-primary mb-4">Welcome to Our App</h1>
+      <h1 className="text-4xl font-bold text-primary mb-4">Welcome to Management App</h1>
       <p className="text-xl text-gray-600">
         Manage your books, contacts, recipes, and shopping all in one place
       </p>
